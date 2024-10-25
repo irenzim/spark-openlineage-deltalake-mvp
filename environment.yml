@@ -1,0 +1,10 @@
+name: spark3_openlineage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.16  # Specify Python version
+  - pyspark=3.3.2
+  - openjdk=11
+  - openlineage-python
+  - delta-spark=2.2.0  # For Delta Lake support in PySpark
+  - jupyterlab  # Optional, for running notebooks
